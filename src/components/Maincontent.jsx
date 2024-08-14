@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Maincontent(props) {
+export default function MainContent(props) {
   return (
     <>
     <div className='bgimage'>
