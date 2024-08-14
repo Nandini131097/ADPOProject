@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import MainContent from './components/maincontent'
 import Footer from './components/footer'
 import Sidebar from './components/sidebar'
 import {fetchApi} from './index'
+import Imagebar from './components/Imagebar'
+
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
 
   return (
     <>
-    {mydata? (<MainContent url={mydata.url}/>): <h2>No content found</h2>}
+    {mydata? (<Imagebar url={mydata.url}/>): <h2>No content found</h2>}
     {mydata?(sidebarMove && (
           <Sidebar
           title={mydata.title}

@@ -1,13 +1,11 @@
 import React from 'react'
 
-export default function MainContent(props) {
+export default function Imagebar() {
   return (
-    <>
-    <div className='bgimage'>
+    <div>
+      <div className='bgimage'>
       <img src={props.url? props.url : "image is not available"} alt="jupiter image" />
     </div>
-    
-    </>
-    
+    </div>
   )
 }
