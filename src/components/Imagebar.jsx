@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Imagebar() {
+export default function Imagebar(props) {
   return (
     <div>
       <div className='bgimage'>
